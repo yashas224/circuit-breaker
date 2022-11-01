@@ -1,0 +1,46 @@
+https://resilience4j.readme.io/docs/circuitbreaker
+https://www.baeldung.com/spring-cloud-circuit-breaker
+https://github.com/resilience4j/resilience4j
+https://github.com/resilience4j/resilience4j/issues/1512
+https://docs.spring.io/spring-cloud-circuitbreaker/docs/2.1.4/reference/html/#auto-configuration
+// testing
+https://ynovytskyy.medium.com/unit-testing-circuit-breaker-8ed2c9098e11
+https://engineering.getmidas.com/how-to-test-and-monitor-your-circuit-breaker-implementation-d6c365f2fcdd
+https://github.com/resilience4j/resilience4j-spring-boot-demo/issues/10
+https://github.com/resilience4j/resilience4j/blob/master/resilience4j-circuitbreaker/src/test/java/io/github/resilience4j/circuitbreaker/CircuitBreakerTest.java
+https://github.com/resilience4j/resilience4j-deprecated/blob/master/resilience4j-spring-boot/src/test/java/io/github/resilience4j/circuitbreaker/CircuitBreakerAutoConfigurationTest.java
+https://stackoverflow.com/questions/64151122/spring-boot-test-how-to-use-only-certain-beans
+
+
+https://stackoverflow.com/questions/66115149/change-timeout-for-spring-cloud-circuit-breaker-at-runtime
+https://docs.spring.io/spring-cloud-circuitbreaker/docs/current/reference/html/index.html
+https://github.com/resilience4j/resilience4j/issues/430
+https://spring.io/projects/spring-cloud-circuitbreaker
+https://docs.spring.io/spring-cloud-circuitbreaker/docs/current/reference/html/index.html#configuring-resilience4j-circuit-breakers
+
+// exclude Spring data Jpa autoconfiguration
+https://stackoverflow.com/questions/36387265/disable-all-database-related-auto-configuration-in-spring-boot
+
+
+
+// refs
+
+https://resilience4j.readme.io/docs/circuitbreaker
+https://medium.com/bliblidotcom-techblog/resilience4j-circuit-breaker-implementation-on-spring-boot-9f8d195a49e0
+https://www.linkedin.com/pulse/spring-boot-microservices-circuit-breaker-mohamed-firnas/
+https://reflectoring.io/retry-with-resilience4j/#what-is-resilience4j
+https://jsession4d.com/a-quick-guide-to-resilience4j-with-spring-boot/#circuitbreaker
+https://rusyasoft.github.io/java/2020/03/20/Usage-resilience4j-retry-cb/
+https://stackoverflow.com/questions/68741978/issue-with-io-github-resilience4j-version-1-7-2-spelresolverconfigurationonmiss
+https://github.com/resilience4j/resilience4j
+https://rieckpil.de/guide-to-springboottest-for-spring-boot-integration-tests/
+https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry
+https://www.manning.com/books/spring-microservices-in-action
+https://reflectoring.io/rate-limiting-with-springboot-resilience4j/
+https://ordina-jworks.github.io/spring/2021/02/01/springCloudCircuitBreaker.html
+https://reflectoring.io/time-limiting-with-resilience4j/
+
+
+// grafna
+https://dev.to/silviobuss/resilience-for-java-microservices-circuit-breaker-with-resilience4j-5c81
+https://github.com/resilience4j/resilience4j-spring-boot2-demo

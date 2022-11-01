@@ -1,0 +1,25 @@
+resilience4j:
+  circuitbreaker:
+    instances:
+      trialDB:
+        eventConsumerBufferSize: 10
+        minimumNumberOfCalls: 5
+        slidingWindowSize: 20
+        ringBufferSizeInClosedState: 20
+        slidingWindowType: COUNT_BASED
+        failureRateThreshold: 50
+        waitDurationInOpenState: 30000
+        permittedNumberOfCallsInHalfOpenState: 10
+        ringBufferSizeInHalfOpenState: 20
+        registerHealthIndicator: true
+
+#option to exclude Repository autoconfiguration
+
+
+spring:
+  autoconfigure:
+    exclude:
+      - org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration
+      - org.springframework.boot.autoconfigure.jdbc.DataSourceTransactionManagerAutoConfiguration
+      - org.springframework.boot.autoconfigure.data.web.SpringDataWebAutoConfiguration
