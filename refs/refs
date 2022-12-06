@@ -20,6 +20,8 @@ https://docs.spring.io/spring-cloud-circuitbreaker/docs/current/reference/html/i
 
 // exclude Spring data Jpa autoconfiguration
 https://stackoverflow.com/questions/36387265/disable-all-database-related-auto-configuration-in-spring-boot
+// starting with a different ApplicationRunner
+https://stackoverflow.com/questions/64151122/spring-boot-test-how-to-use-only-certain-beans
 
 
 
