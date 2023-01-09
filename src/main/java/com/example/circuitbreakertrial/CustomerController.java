@@ -63,7 +63,9 @@ public class CustomerController {
       optionalEntity = customerService.getCustomerByNameCB1(name);
     } else if(cb == 2) {
       optionalEntity = customerService.getCustomerByNameCB2(name);
-    } else {
+    }else if(cb==3){
+      optionalEntity=customerService.getCustomerByNameCB3(name);
+    }else {
       optionalEntity = customerService.getCustomerByNameNormal(name);
     }
 

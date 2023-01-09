@@ -12,7 +12,11 @@ resilience4j:
           permittedNumberOfCallsInHalfOpenState: 10
           ringBufferSizeInHalfOpenState: 20
           registerHealthIndicator: true
-
+  retry:
+    instances:
+      trialRetry:
+        maxRetryAttempts: 2
+        waitDuration: 2s
 management:
   endpoints:
     web:

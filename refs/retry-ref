@@ -1,0 +1,10 @@
+https://resilience4j.readme.io/v1.7.0/docs/getting-started
+https://reflectoring.io/retry-with-springboot-resilience4j/
+https://medium.com/@maniar.othmane/retry-pattern-with-resilience4j-and-spring-boot-cfeaa90458d
+https://www.baeldung.com/spring-boot-resilience4j
+
+https://github.com/resilience4j/resilience4j/issues/558
+
+
+//logging
+https://stackoverflow.com/questions/64519894/resilience4j-retry-logging-retry-attempts-from-client
