@@ -1,5 +1,6 @@
 package com.example.circuitbreakertrial;
 
+import io.github.resilience4j.circuitbreaker.CallNotPermittedException;
 import io.github.resilience4j.retry.annotation.Retry;
 import lombok.SneakyThrows;
 import org.slf4j.Logger;
@@ -66,19 +67,32 @@ public class CustomerService {
 
   @SneakyThrows
   public Optional<CustomerEntity> cbFallback(String name, Throwable e) {
-    logger.info("{} in fall back method of Circuit Breaker   !!!!", retryPrefix);
-    throw  e;
+    logger.info("{} in fall back method of Circuit Breaker  throwing exception  !!!!", retryPrefix);
+    throw e;
+  }
+
+  private Optional<CustomerEntity> cbFallback(String name, CallNotPermittedException e) {
+    logger.info("{} in fall back method of Circuit Breaker when it is OPEN  returning a response  !!!!", retryPrefix);
+    return Optional.ofNullable(null);
   }
 
   public Optional<CustomerEntity> retryFallback(String name, Throwable e) {
+    logger.error("Exception thrown by retry module", e);
     logger.info("{} in fall back method of Retry  !!!!", retryPrefix);
     return Optional.ofNullable(null);
   }
 
-  // circuit breaker fallback is throwing the exception
+  // circuit breaker fallback is throwing the exception when not in  open state
+
   // retry module by default would retry on all recorded  exceoptions
-  // thus for a single failure by Circuit breaker  , retry module is triggered
+
+/*   if the circuit breaker is open, CallNotPermittedException is thrown by the circuit breaker and the corosponding fallback method
+   does not throw an exception but returns a response instead. So the Retry Module does not see this as an exception and retry won't happen*/
+
+  // thus for every failure by Circuit breaker except when the Circuit breaker is open  , retry module is triggered
+
   // If Circuit breaker does not throw exceptions , then Retry wonn't happen.
+
 
 
 }

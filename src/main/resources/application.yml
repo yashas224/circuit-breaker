@@ -8,7 +8,7 @@ resilience4j:
           ringBufferSizeInClosedState: 20
           slidingWindowType: COUNT_BASED
           failureRateThreshold: 50
-          waitDurationInOpenState: 30000
+          waitDurationInOpenState: 90000
           permittedNumberOfCallsInHalfOpenState: 10
           ringBufferSizeInHalfOpenState: 20
           registerHealthIndicator: true
@@ -16,7 +16,7 @@ resilience4j:
     instances:
       trialRetry:
         maxRetryAttempts: 2
-        waitDuration: 2s
+        waitDuration: 3s
 management:
   endpoints:
     web:
