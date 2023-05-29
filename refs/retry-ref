@@ -4,7 +4,9 @@ https://medium.com/@maniar.othmane/retry-pattern-with-resilience4j-and-spring-bo
 https://www.baeldung.com/spring-boot-resilience4j
 
 https://github.com/resilience4j/resilience4j/issues/558
-
-
+https://fullstackdeveloper.guru/2020/09/29/how-to-retry-service-calls-in-spring-boot/
+https://reflectoring.io/retry-with-springboot-resilience4j/#fallback-method
+https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry
+https://howtodoinjava.com/spring-boot2/spring-retry-module/
 //logging
 https://stackoverflow.com/questions/64519894/resilience4j-retry-logging-retry-attempts-from-client
