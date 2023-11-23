@@ -10,3 +10,6 @@ https://betterjavacode.com/programming/spring-retry-vs-resilience4j-retry
 https://howtodoinjava.com/spring-boot2/spring-retry-module/
 //logging
 https://stackoverflow.com/questions/64519894/resilience4j-retry-logging-retry-attempts-from-client
+
+
+https://bootcamptoprod.com/spring-boot-resilience4j-retry/#:~:text=Resilience4j%20Retry%20provides%20the%20option,when%20all%20retry%20attempts%20fail.
