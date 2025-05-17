@@ -1,6 +1,10 @@
 https://resilience4j.readme.io/docs/circuitbreaker
 https://www.baeldung.com/spring-cloud-circuit-breaker
 https://github.com/resilience4j/resilience4j
+
+// using spring boot resilience4j-spring-boot2
+https://www.baeldung.com/spring-boot-resilience4j
+
 //logging
 https://github.com/resilience4j/resilience4j/issues/1512
 https://docs.spring.io/spring-cloud-circuitbreaker/docs/2.1.4/reference/html/#auto-configuration
